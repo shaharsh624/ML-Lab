@@ -1,0 +1,4 @@
+Very Good EDA: https://github.com/iam-armanahmed/household-electric-power-consumption/blob/master/EDA_and_Model.ipynb
+
+Data Also available here: https://www.kaggle.com/datasets/uciml/electric-power-consumption-data-set
+
