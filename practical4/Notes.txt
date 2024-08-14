@@ -1,0 +1,5 @@
+Implement the non-parametric locally weighted regression algo in order to fit data points. Select appropriate data set for your experiment and draw graphs.
+
+
+https://medium.com/@co.2021.kdsahu/locally-weighted-regression-6ac33b9f0f42
+
