@@ -1,0 +1,23 @@
+Transactions: 
+[[F, A, C, D, G, I, M, P], [A, B, C, F, L, M, O], [B, F, H, J, O], [B, C, K, S, P], [A, F, C, E, L, P, M, N]]
+
+Frequency Map: 
+{P=3, A=3, B=3, C=4, M=3, F=4}
+
+Ordered-Item Set: 
+[[P, A, C, F, M], [A, B, C, F, M], [B, F], [P, B, C], [P, A, C, F, M]]
+
+Frequent Patterns:
+A,C = 3
+A,F = 3
+A,F,C = 3
+F,C = 3
+M,A = 3
+M,C = 3
+M,C,A = 3
+M,F = 3
+M,F,A = 3
+M,F,C = 3
+M,F,C,A = 3
+P,C = 3
+

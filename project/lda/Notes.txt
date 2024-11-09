@@ -1,0 +1,9 @@
+Resources
+
+
+https://www.kaggle.com/code/egazakharenko/linear-discriminant-analysis-lda-from-scratch
+
+https://www.kaggle.com/code/ishanishah8/lda-from-scratch-for-classification
+
+https://www.youtube.com/watch?v=9IDXYHhAfGA
+
