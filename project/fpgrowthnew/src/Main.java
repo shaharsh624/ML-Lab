@@ -2,13 +2,12 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        String fileName = "test";
+        String fileName = "orders";
         String inputFile = "data/" + fileName + ".csv";
         String outPutFile = "results/" + fileName + ".txt";
-        int minSupport = 3;
+        int minSupport = 5;
         FPGrowth fpGrowth = new FPGrowth(minSupport);
 
-        // Read transactions from CSV
         List<List<String>> transactions = FileOps.readCSV(inputFile);
 
         // 1. Create Frequency Map
@@ -20,7 +19,6 @@ public class Main {
         // 3. Create Frequent Pattern Tree
         Map<String, Integer> frequentPatterns = fpGrowth.findFrequentPatterns(filteredTransactions);
 
-        // Write results to file
         String output = "Transactions: \n" + transactions + "\n" +
                 "\nFrequency Map: \n" + sortedMap + "\n" +
                 "\nOrdered-Item Set: \n" + filteredTransactions + "\n" +

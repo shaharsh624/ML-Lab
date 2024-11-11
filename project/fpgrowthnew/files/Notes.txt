@@ -1,0 +1,9 @@
+
+Support
+It is a measure of the number of times an item set appears in a dataset.
+Support(X) = (Number of transactions containing X) / (Total number of transactions)
+
+Confidence
+It is a measure of the likelihood that an item-set will appear if another item-set appears.
+Confidence(X => Y) = (Number of transactions containing X and Y) / (Number of transactions containing X)
+

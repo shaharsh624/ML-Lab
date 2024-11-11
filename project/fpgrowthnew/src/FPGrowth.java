@@ -21,7 +21,8 @@ public class FPGrowth {
         // Filter with items having frequencies greater than support and sort by values in descending order
         itemFrequencies.entrySet().removeIf(entry -> entry.getValue() < minSupport);
 
-        return itemFrequencies.entrySet().stream().sorted((entry1, entry2) -> entry2.getValue().compareTo(entry1.getValue())).collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue, (e1, e2) -> e1, LinkedHashMap::new));
+        return itemFrequencies.entrySet().stream().sorted((entry1, entry2) -> entry2.getValue().compareTo(entry1.getValue()))
+                .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue, (e1, e2) -> e1, LinkedHashMap::new));
     }
 
     public List<List<String>> createOrderedItemSet(Map<String, Integer> sortedMap, List<List<String>> transactions) {
@@ -65,8 +66,7 @@ public class FPGrowth {
             }
 
             if (support >= minSupport) {
-                // Store pattern with its support count
-                if (newPattern.size() > 1) { // Only store patterns with 2 or more items
+                if (newPattern.size() > 1) {
                     List<String> sortedPattern = new ArrayList<>(newPattern);
                     String patternKey = String.join(",", sortedPattern);
                     patternSupport.put(patternKey, support);

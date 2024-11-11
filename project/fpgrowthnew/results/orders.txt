@@ -1,0 +1,30 @@
+Transactions: 
+[[Juice, Cheese], [Chicken, Milk, Bread, Butter], [Bread, Chicken, Eggs], [Chicken, Cheese, Bread], [Pasta, Chicken], [Butter, Juice], [Pasta, Bread, Juice, Eggs], [Butter, Milk, Bread, Cereal, Chicken], [Juice, Milk, Cereal, Eggs], [Milk, Cheese], [Eggs, Cereal], [Juice, Eggs, Butter, Chicken], [Tomatoes, Cereal, Juice, Butter, Pasta], [Tomatoes, Butter], [Eggs, Milk], [Butter, Chicken], [Tomatoes, Butter], [Juice, Pasta, Eggs, Cereal], [Bread, Butter, Eggs, Juice], [Cheese, Bread, Tomatoes], [Cheese, Pasta, Juice], [Pasta, Chicken, Cheese, Milk, Tomatoes], [Tomatoes, Pasta, Butter, Juice], [Cheese, Pasta, Milk], [Cereal, Milk], [Pasta, Eggs, Milk, Cereal], [Juice, Chicken], [Cheese, Butter, Bread, Tomatoes], [Butter, Cheese, Tomatoes, Cereal], [Cereal, Juice, Bread], [Juice, Eggs], [Tomatoes, Cereal], [Tomatoes, Milk, Cereal, Bread], [Butter, Chicken, Milk], [Cereal, Eggs, Bread], [Eggs, Pasta, Chicken, Milk, Butter], [Cheese, Tomatoes, Butter, Eggs], [Milk, Cereal], [Cereal, Milk, Pasta], [Tomatoes, Eggs], [Cheese, Milk, Tomatoes], [Eggs, Tomatoes, Butter, Cereal], [Butter, Cereal], [Chicken, Bread, Juice, Cheese], [Chicken, Pasta, Juice, Milk, Cheese], [Cheese, Chicken, Bread], [Cheese, Eggs, Chicken], [Cereal, Eggs, Tomatoes], [Cereal, Butter, Cheese, Pasta], [Cereal, Milk, Pasta, Bread, Tomatoes]]
+
+Frequency Map: 
+{Butter=18, Cereal=19, Juice=15, Cheese=16, Chicken=15, Pasta=14, Tomatoes=16, Eggs=17, Milk=17, Bread=14}
+
+Ordered-Item Set: 
+[[Juice, Cheese], [Butter, Chicken, Milk, Bread], [Chicken, Eggs, Bread], [Chicken, Cheese, Bread], [Pasta, Chicken], [Butter, Juice], [Juice, Pasta, Eggs, Bread], [Butter, Cereal, Chicken, Milk, Bread], [Juice, Cereal, Eggs, Milk], [Cheese, Milk], [Cereal, Eggs], [Butter, Juice, Chicken, Eggs], [Butter, Cereal, Juice, Pasta, Tomatoes], [Butter, Tomatoes], [Eggs, Milk], [Butter, Chicken], [Butter, Tomatoes], [Juice, Cereal, Pasta, Eggs], [Butter, Juice, Eggs, Bread], [Cheese, Tomatoes, Bread], [Juice, Cheese, Pasta], [Pasta, Chicken, Cheese, Tomatoes, Milk], [Butter, Juice, Pasta, Tomatoes], [Cheese, Pasta, Milk], [Cereal, Milk], [Cereal, Pasta, Eggs, Milk], [Juice, Chicken], [Butter, Cheese, Tomatoes, Bread], [Butter, Cereal, Cheese, Tomatoes], [Cereal, Juice, Bread], [Juice, Eggs], [Cereal, Tomatoes], [Cereal, Tomatoes, Milk, Bread], [Butter, Chicken, Milk], [Cereal, Eggs, Bread], [Butter, Pasta, Chicken, Eggs, Milk], [Butter, Cheese, Tomatoes, Eggs], [Cereal, Milk], [Cereal, Pasta, Milk], [Tomatoes, Eggs], [Cheese, Tomatoes, Milk], [Butter, Cereal, Tomatoes, Eggs], [Butter, Cereal], [Juice, Chicken, Cheese, Bread], [Juice, Chicken, Pasta, Cheese, Milk], [Cheese, Chicken, Bread], [Cheese, Chicken, Eggs], [Cereal, Tomatoes, Eggs], [Butter, Cereal, Cheese, Pasta], [Cereal, Pasta, Tomatoes, Milk, Bread]]
+
+Frequent Patterns:
+Milk,Cereal = 8
+Tomatoes,Butter = 8
+Eggs,Cereal = 7
+Pasta,Milk = 7
+Tomatoes,Cereal = 7
+Bread,Chicken = 6
+Butter,Cereal = 6
+Chicken,Butter = 6
+Chicken,Cheese = 6
+Chicken,Milk = 6
+Juice,Eggs = 6
+Pasta,Cereal = 6
+Pasta,Juice = 6
+Tomatoes,Cheese = 6
+Bread,Cereal = 5
+Bread,Cheese = 5
+Cheese,Milk = 5
+Eggs,Butter = 5
+Juice,Butter = 5
+Pasta,Cheese = 5
