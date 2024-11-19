@@ -1,0 +1,15 @@
+1. cancer.csv
+
+2. cars.csv
+
+3. glass.csv
+
+4. Gold_Price_financial.csv
+
+5. heart_dataset.csv
+
+6. HousingData.csv
+
+7. master_pima-indian-diabetes.csv - PRACTICAL 5, 7
+
+8. mnist.csv
