@@ -1,0 +1,8 @@
+https://sefiks.com/2018/08/27/a-step-by-step-cart-decision-tree-example/
+
+https://medium.com/geekculture/decision-trees-with-cart-algorithm-7e179acee8ff
+
+https://www.kaggle.com/code/shivangamsoni/decision-tree-play-golf
+
+https://github.com/milaan9/Python_Decision_Tree_and_Random_Forest/blob/main/
+

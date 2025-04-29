@@ -335,5 +335,12 @@ target/
 maildir
 
 
+/*/*/.idea
+/*/*/*/.iml
+
 */*/*.csv
 practical2/data/household_power_consumption.txt
+practical5/master_pima-indians-diabetes.csv
+practical6/data.csv
+practical9/golf_dataset.csv
+practical9/penguins_size.csv
